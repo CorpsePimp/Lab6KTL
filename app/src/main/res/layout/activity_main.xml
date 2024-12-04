@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле для ввода заголовка -->
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Заголовок"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <!-- Поле для ввода текста напоминания -->
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Сообщение"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <!-- Кнопка выбора даты -->
+    <Button
+        android:id="@+id/buttonSetDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать дату"
+        android:layout_marginTop="12dp" />
+
+    <!-- Кнопка выбора времени -->
+    <Button
+        android:id="@+id/buttonSetTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбрать время"
+        android:layout_marginTop="8dp" />
+
+    <!-- Кнопка сохранения напоминания -->
+    <Button
+        android:id="@+id/buttonSaveReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить напоминание"
+        android:layout_marginTop="12dp" />
+
+    <!-- Кнопка просмотра напоминаний -->
+    <Button
+        android:id="@+id/buttonViewReminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Просмотреть напоминания"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
